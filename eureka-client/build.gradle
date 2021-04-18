@@ -1,0 +1,36 @@
+dependencies {
+    implementation('org.springframework.cloud:spring-cloud-starter-netflix-eureka-client')
+    implementation('org.springframework.boot:spring-boot-starter-web')
+}
+
+bootRun {
+    enabled = false
+}
+
+task bootRunFirst {
+    group 'application'
+    doFirst {
+        bootRun {
+            enabled = true
+            configure {
+                systemProperty('spring.profiles.active', 'first')
+            }
+        }
+    }
+
+    finalizedBy 'bootRun'
+}
+
+task bootRunSecond {
+    group 'application'
+    doFirst {
+        bootRun {
+            enabled = true
+            configure {
+                systemProperty('spring.profiles.active', 'second')
+            }
+        }
+    }
+
+    finalizedBy 'bootRun'
+}

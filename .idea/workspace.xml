@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RunManager" selected="Spring Boot.gateway">
+    <configuration name="config-client" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="javamentor-spring-cloud-examples.config-client.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="javamentor.examples.springcloudconfigclient.SpringcloudconfigClientApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="config-server" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="javamentor-spring-cloud-examples.config-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="javamentor.examples.springcloudconfig.SpringCloudConfigApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="eureka-client 1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="javamentor-spring-cloud-examples.eureka-client.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="javamentor.examples.springcloudeurekaclient.SpringCloudEurekaClientApplication" />
+      <option name="ACTIVE_PROFILES" value="first" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="eureka-client 2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="javamentor-spring-cloud-examples.eureka-client.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="javamentor.examples.springcloudeurekaclient.SpringCloudEurekaClientApplication" />
+      <option name="ACTIVE_PROFILES" value="second" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="eureka-discovery" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="javamentor-spring-cloud-examples.eureka-discovery.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="javamentor.examples.eurekadiscovery.EurekaDiscoveryApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="eureka-server" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="javamentor-spring-cloud-examples.eureka-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="avamentor.examples.springcloudeureka.SpringCloudEurekaApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gateway" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="javamentor-spring-cloud-examples.gateway.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="javammentor.examples.gateway.GatewayApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.gateway" />
+      <item itemvalue="Spring Boot.config-server" />
+      <item itemvalue="Spring Boot.config-client" />
+      <item itemvalue="Spring Boot.eureka-server" />
+      <item itemvalue="Spring Boot.eureka-client 1" />
+      <item itemvalue="Spring Boot.eureka-client 2" />
+      <item itemvalue="Spring Boot.eureka-discovery" />
+    </list>
+  </component>
+</project>

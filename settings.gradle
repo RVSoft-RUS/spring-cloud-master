@@ -1,0 +1,10 @@
+rootProject.name = 'javamentor-spring-cloud-examples'
+
+include 'config-server'
+include 'config-client'
+
+include 'eureka-server'
+include 'eureka-client'
+include 'eureka-discovery'
+
+include 'gateway'
